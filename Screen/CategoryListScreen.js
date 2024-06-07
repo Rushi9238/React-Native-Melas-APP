@@ -21,6 +21,7 @@ const CategoryListScreen = ({navigation}) => {
         )
     }
   return (
+   <>
     <FlatList
     data={CATEGORY}
     keyExtractor={(item)=>item.id}
@@ -28,6 +29,7 @@ const CategoryListScreen = ({navigation}) => {
     numColumns={2}
     // numColumns={2}
     />
+   </>
   )
 }
 
